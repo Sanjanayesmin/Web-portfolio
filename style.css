@@ -3,19 +3,26 @@ body{
     font-family: 'Kufam', cursive;
 }
 h1{
-    font-size:40px;   
+    font-size:40px; 
+    color:rgb(105, 30, 30);  
+}
+h2{
+    color: rgb(105, 30, 30);
+}
+h3{
+    color: rgb(182, 125, 235);
 }
 .color{
-    color:orchid;
+    color:rgb(226, 63, 221);
 }
 .half-width{
     width:40%;
     float: left;
     margin-left:50px;
     padding-left:20px;
-    
-   
-
+}
+p{
+    color:rgb(241, 137, 102);
 }
 .half-width img{
     margin-top:75px;
@@ -30,8 +37,19 @@ h1{
     background-repeat: no-repeat;
 }
 
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 section{
     height:500px;
+    padding-bottom:150px;
 }
 
 .link-button{
@@ -42,3 +60,45 @@ section{
        color: white;
        font-weight:700px;
 }
+.width img{
+    margin-top:75px;
+    margin-left:50px;
+    margin-right:20px;
+    padding-right:20px;
+    width:40%;
+    float: left;
+    padding-left:20px;
+    
+}
+#meaw{
+    margin-left:20px;
+    padding-left:10px;
+    margin-top:50px;
+    padding-top:50px;
+    
+}
+
+.shadow{
+    border-radius:5px;
+    box-shadow: 10px 10px 40px blueviolet;
+    height: 250px;
+    background-color: white;
+}
+
+#border1{
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg, blue,cyan,rgb(185, 236, 236) );
+   border-image-slice: 1;
+}
+
+#border2{
+    border-left: 7px solid; 
+    border-image: linear-gradient(180deg, rgb(187, 11, 128),rgb(231, 104, 199),rgb(228, 155, 210) );
+    border-image-slice: 1;
+ }
+
+ footer p{
+       text-align:center;
+       color: black;
+       font-size:12px;
+ }
